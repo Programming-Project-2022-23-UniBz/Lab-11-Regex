@@ -5,24 +5,18 @@ import java.util.List;
 public class Finder {
 
   /**
-   * Finds all positive integers between 0 and 100 in a string.
-   *
-   * <p>This exercise is based on quiz 12 from regex101.com. See original at
-   * https://regex101.com/quiz/12
-   *
-   * <p>HINT: You may want to use a negative lookbehind (?<!...) See more at
-   * https://www.regular-expressions.info/lookaround.html
+   * Returns integers between 0 and 100 (both included) that appear as separate words in the input string, with duplicates (if any).
+   * Numbers in the returned list should be in the same order as they appear in the string.
    */
   public static List<Integer> findZeroToOneHundred(String text) {
     return null;
   }
 
   /**
-   * Finds all bit sequences which are alternating between 1 and 0, i.e., those that do not have
-   * more than 1 or 0 in a row.
-   *
-   * <p>This exercise is inspired on quiz 13 from regex101.com. See original at
-   * https://regex101.com/quiz/13
+   * Returns numbers that:
+   * - that appear as separate words in the input string, with duplicates (if any), and
+   * - consist only 0's and 1's, and
+   * - do not contain two consecutive 0's or two consecutive 1's.
    */
   public static List<String> findAlternatingBits(String text) {
     return null;

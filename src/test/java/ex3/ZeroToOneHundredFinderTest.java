@@ -42,4 +42,22 @@ class ZeroToOneHundredFinderTest {
     String text = "There are 50 students in my class, out of which 30 attend the lectures.";
     assertThat(findZeroToOneHundred(text)).containsExactly(50, 30);
   }
+
+  @Test
+  void shouldReturn50and50and30() {
+    String text = "There are 50 students in my class, out of which 50 are new, and 30 attend the lectures.";
+    assertThat(findZeroToOneHundred(text)).containsExactly(50, 50, 30);
+  }
+
+  @Test
+  void shouldReturn50and20() {
+    String text = "There are 50 students in class50, out of which 20 attend the lectures.";
+    assertThat(findZeroToOneHundred(text)).containsExactly(50, 20);
+  }
+
+  @Test
+  void shouldReturn10and25and25() {
+    String text = "The winning combination is 10, 121, 25, 251, and 25 again.";
+    assertThat(findZeroToOneHundred(text)).containsExactly(10, 25, 25);
+  }
 }
