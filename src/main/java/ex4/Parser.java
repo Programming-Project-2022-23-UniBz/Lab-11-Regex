@@ -5,22 +5,22 @@ import java.util.List;
 public class Parser {
 
   /**
-   * Returns a string containing the authors of the paper.
+   * Returns a string containing the authors of the paper, separated by commas.
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
-   * returns "Jackson, D."
+   * should return "Jackson, D."
    */
   public static String extractAuthors(String citation) {
     return null;
   }
 
   /**
-   * Returns a string containing the year when the paper was published.
+   * Returns a string containing the year of publication of the paper.
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
-   * returns "2002"
+   * should return "2002".
    */
   public static String extractYear(String citation) {
     return null;
@@ -31,7 +31,7 @@ public class Parser {
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
-   * returns "Alloy: a lightweight object modelling notation"
+   * should return "Alloy: a lightweight object modelling notation".
    */
   public static String extractTitle(String citation) {
     return null;
@@ -42,7 +42,7 @@ public class Parser {
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
-   * returns "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+   * should return "ACM Transactions on Software Engineering and Methodology (TOSEM)".
    */
   public static String extractJournalTitle(String citation) {
     return null;
@@ -53,7 +53,7 @@ public class Parser {
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
-   * returns 11
+   * should return 11.
    */
   public static Integer extractVolume(String citation) {
     return null;
@@ -64,7 +64,7 @@ public class Parser {
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
-   * returns "2"
+   * should return "2".
    */
   public static String extractNumber(String citation) {
     return null;
@@ -76,7 +76,7 @@ public class Parser {
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
-   * returns [256, 290]
+   * should return [256, 290].
    */
   public static List<Integer> extractPages(String citation) {
     return null;
