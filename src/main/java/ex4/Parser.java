@@ -5,7 +5,7 @@ import java.util.List;
 public class Parser {
 
   /**
-   * Returns a string containing the authors of the paper, separated by commas.
+   * Returns a string containing the authors of the paper.
    *
    * <p>For instance, given "Jackson, D. (2002). Alloy: a lightweight object modelling notation. ACM
    * Transactions on Software Engineering and Methodology (TOSEM), 11(2), 256-290.", the method
