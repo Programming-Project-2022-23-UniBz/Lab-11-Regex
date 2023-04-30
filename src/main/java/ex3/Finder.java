@@ -14,7 +14,7 @@ public class Finder {
 
   /**
    * Returns numbers that:
-   * - that appear as separate words in the input string, with duplicates (if any), and
+   * - appear as separate words in the input string, with duplicates (if any), and
    * - consist only 0's and 1's, and
    * - do not contain two consecutive 0's or two consecutive 1's.
    */
