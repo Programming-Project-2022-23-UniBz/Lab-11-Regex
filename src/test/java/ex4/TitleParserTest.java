@@ -65,7 +65,7 @@ class TitleParserTest {
   void shouldExtractADesign() {
     final String citation5 =
         "Wilkinson, M. D., Sansone, S. A., Schultes, E., Doorn, P., da Silva Santos, "
-            + "L. O. B., & Dumontier, M. (2018). A design framework and exemplar metrics for FAIRness."
+            + "L. O. B., & Dumontier, M. (2018). A design framework and exemplar metrics for FAIRness. "
             + "Scientific data, 5(1), 1-4.";
 
     assertThat(extractTitle(citation5))

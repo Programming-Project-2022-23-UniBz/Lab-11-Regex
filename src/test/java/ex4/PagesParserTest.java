@@ -55,7 +55,7 @@ class PagesParserTest {
   void shouldExtractWilkinsonEtAl() {
     final String citation5 =
         "Wilkinson, M. D., Sansone, S. A., Schultes, E., Doorn, P., da Silva Santos, "
-            + "L. O. B., & Dumontier, M. (2018). A design framework and exemplar metrics for FAIRness."
+            + "L. O. B., & Dumontier, M. (2018). A design framework and exemplar metrics for FAIRness. "
             + "Scientific data, 5(1), 1-4.";
 
     assertThat(extractPages(citation5)).containsExactly(1, 4);
