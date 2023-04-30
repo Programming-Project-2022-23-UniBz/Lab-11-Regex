@@ -27,7 +27,7 @@ public class Validator {
 
   /**
    * Returns true if the string as a whole is a valid username, which must comply with the following
-   * conditions: have between 2 and 12 characters, start with a letter, contain only letters,
+   * conditions: have between 3 and 12 characters, start with a letter, contain only letters,
    * numbers, underscores (_), dots (.) and ats (@).
    *
    * <p>See src/test/resources/ex1/usernames.txt for a set of valid and invalid usernames.
