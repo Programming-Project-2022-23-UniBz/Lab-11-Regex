@@ -17,6 +17,8 @@ public class Cleaner {
    * case-sensitive.
    *
    * <p>For instance, from "This is is is an an example" this method returns "This is an example".
+   *
+   * <p>HINT: you can use a combination of back references (inside and/or outside the regex).
    */
   public static String cleanDuplicates(String text) {
     return null;

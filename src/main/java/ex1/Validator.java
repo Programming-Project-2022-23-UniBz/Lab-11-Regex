@@ -5,6 +5,10 @@ public class Validator {
   /**
    * Returns true if the string as a whole is a date formatted as 30/12/2020.
    *
+   * <p>It is sufficient for your implementation to pass the unit tests.
+   * In particular, no need to check whether a month can have 31 days,
+   * or whether February 29 is valid for a certain year.
+   *
    * <p>See src/test/resources/ex1/dates.txt for a set of valid and invalid dates.
    */
   public static boolean validateDate(String date) {
